@@ -1,0 +1,102 @@
+.cadastre #cad{
+    z-index: 1;
+    position: fixed;
+    background-image:linear-gradient(rgb(107, 104, 104), rgb(190, 189, 189), rgb(107, 106, 106));
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    color:beige;
+    text-transform: uppercase;
+    text-shadow: 3px 2px black;
+    font-size: 100%;
+    text-align: center;
+    text-decoration:underline overline rgb(72, 252, 1);
+    max-width: 36%;
+    max-height:5%;
+    min-width: 6%;
+    min-height: 5%;
+    margin-top: 20%;
+    margin-left: 30%;
+    margin-right: 19%;
+    margin-bottom: 0%;
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 1% 1% 1% 1%;
+    border-style: solid;
+    border-width: 100%;
+    box-shadow: 3px 3px 5px 3px black;
+    animation: alternate;
+    animation-duration: 5s;
+    transform: translateX(360deg);
+    animation: cadastro 8s linear infinite;
+ }
+ @keyframes cadastro{
+ 0%{ transform:translateX(16px);
+    border-color: rgb(27, 27, 27) rgb(247, 236, 241)rgb(233, 243, 233) rgb(243, 237, 237) ;
+ border-width: 3vh 0vh 0vh 0vh ;
+ border-radius: 3% 0% 0% 0%;
+ border-style: solid;
+ }
+ 
+ 20%{ transform:translateX(16px);
+    background-image:  linear-gradient(rgb(246, 248, 242), rgb(138, 135, 135), rgb(19, 19, 18));
+  
+ border-color: rgb(241, 238, 238) rgb(12, 12, 12) rgb(233, 243, 233) rgb(238, 232, 232) ;
+ border-width: 0vh 3vh 0vh 0vh;
+ border-radius: 0% 3% 0% 0%;
+ border-style: solid;
+ }
+ 30%{transform:translateX(8px);
+    background-image:  linear-gradient(rgb(29, 29, 28), rgb(116, 117, 116), rgb(161, 156, 156) rgb(241, 232, 232));
+ 
+ border-color: rgb(238, 226, 226)  rgb(245, 232, 242) rgb(22, 22, 22) rgb(247, 247, 238) ;
+ border-width: 0vh 0vh 3vh 0vh;
+ border-radius: 0% 0% 3% 0%;
+ border-style: solid;
+ }
+ 40%{ transform:translateX(16px);
+    background-image:  linear-gradient(rgb(240, 235, 235), rgb(139, 139, 139), rgb(104, 103, 103) rgb(26, 25, 25));
+  
+ 
+    border-color: rgb(243, 235, 235) rgb(240, 228, 239) rgb(241, 238, 239) rgb(14, 13, 13) ;
+    border-width: 0vh 0vh 0vh 3vh;
+    border-radius: 0% 0% 0% 3%;
+    border-style: solid;
+    
+    }
+    
+    60%{ transform:translateX(16px);
+       background-image:  linear-gradient(rgb(14, 13, 13), rgb(115, 119, 116), rgb(241, 241, 233) rgb(39, 39, 38));
+  
+    border-color: rgb(17, 17, 17) rgb(218, 218, 215) rgb(222, 222, 235) rgb(247, 239, 239) ;
+    border-width:3vh 0vh 0vh 0vh; 
+    border-radius: 3% 0% 0% 0%;
+    border-style: solid;
+    }
+    80%{transform:translateX(16px);
+       background-image:  linear-gradient(rgb(22, 21, 21), rgb(116, 116, 116), rgb(250, 246, 246) rgb(12, 12, 11));
+  
+  
+    border-color: rgb(231, 231, 225) rgb(12, 12, 12) rgb(221, 226, 217) rgb(230, 220, 220) ;
+    border-width:0vh 3vh 0vh 0vh; 
+    border-radius: 0% 3% 0% 0%;
+    border-style: solid;
+    }
+    90%{transform:translateX(16px);
+ 
+       border-color: rgb(255, 243, 243) rgb(247, 241,255) rgb(15, 15, 15)rgb(242, 240, 250) ;
+       border-width:0vh 0vh 3vh 0vh; 
+       border-radius: 0% 0% 3% 0%;
+       border-style: solid;
+ 
+    }
+ 
+ 100%{transform:translateX(16px);
+ 
+    border-color: rgb(255, 243, 243) rgb(247, 241,255) rgb(241, 231, 231) rgb(10, 10, 10) ;
+    border-width:0vh 0vh 0vh 3vh;
+    border-radius: 0% 0% 0% 3%; 
+    border-style: solid;
+ }
+ } 
