@@ -481,15 +481,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     box-shadow: 6px 2px 9px 5px #fce309;
-    text-decoration: ;
+    
   }
-  /*PAREI AQUI*/
+  /* PAREI AQUI: COLOCAR A IMAGEM DO ALBERT EINSTEIN* DIA 21/06/1989/ */
   .einstein {
     display: flex;
-    background-image: url("https://4.bp.blogspot.com/-F5eY351KJMo/We4fGVeEeeI/AAAAAAAAL0c/j8yZbmEEgw4RG0d--TmuL1WIK-jDNZXdwCLcBGAs/s320/einstein.jpg");
+    background-image: url("");
     background-position: 100%;
     background-size: cover;
-    opacity: 0.6;
+    opacity: 0.9;
     width: 20%;
     height: auto;
     margin-top: -40%;
@@ -576,7 +576,7 @@ body {
     }
   }
   
-  .einstein>#albert:hover {
+ #albert:hover {
     color: #0a0a0a;
     font-size: 20px;
     font-family: Arial, sans-serif;
@@ -772,7 +772,7 @@ margin-right: 0%;
 
 
   
-  .stepen>#hawking:hover {
+#hawking:hover {
     opacity: 0.9;
     font-size: 22px;
     color: #0bb121;
@@ -785,7 +785,7 @@ margin-right: 0%;
   
   }
   
-  .stepen>#hawking {
+  #hawking {
   
     font-size: 21px;
     text-transform: uppercase;
@@ -955,14 +955,14 @@ margin-right: 0%;
   }
   
   
-  .platao>#platon:hover {
+  #platon:hover {
     font-size: 25px;
     color: #141414;
     background-image: linear-gradient(rgb(165, 180, 111), rgb(241, 241, 141), rgb(224, 224, 56));
     box-shadow: 3px 3px 7px 4px rgb(197, 209, 127);
   }
   
-  .platao>#platon {
+  #platon {
   
     font-size: 20px;
   
@@ -1048,19 +1048,19 @@ margin-right: 0%;
   
   
   /*Frases de Betrad Russel*/
-  #Betrad {
+  .Betrad {
     text-align: center;
     background-image:url("https://th.bing.com/th/id/R.d3cafd5a973794398bff33aae5f4b158?rik=qKOPU5NMcMna1g&riu=http%3a%2f%2f1.bp.blogspot.com%2f_34L-rH90TI4%2fS6wuUEkitYI%2fAAAAAAAAAAM%2fvAiW0mNsB6c%2fS240%2fbertrand_russell.jpg&ehk=3jEBXjDm8%2fkgmY5FqwlwlATJKm6hLL7nj0tMX5MgTKE%3d&risl=&pid=ImgRaw&r=0");
     background-size:cover;
     background-position: center;
    
-    display: inline-block;
+    display: block;
     margin-top: -37%;
-    margin-bottom: -60%;
+    margin-bottom: 0%;
     margin-left: 75%;
-    margin-right: 3%;
-    padding-top: 29%;
-    padding-bottom: -60%;
+    margin-right: 6%;
+    padding-top: 1%;
+    padding-bottom: 10%;
     padding-left: 3%;
     padding-right: 1px;
     border-style: double rgb(68, 63, 63);
@@ -1069,7 +1069,7 @@ margin-right: 0%;
     box-sizing: border-box;
     box-shadow: 3px 3px 7px 4px rgb(3, 3, 3);
     border-radius: 100% 100% 100% 100%;
-    /*
+    
     animation: alternate;
     animation-duration: 5s;
     transform: rotateX(0px);
@@ -1079,10 +1079,10 @@ margin-right: 0%;
     -ms-border-radius: 100% 100% 100% 100%;
     -o-border-radius: 100% 100% 100% 100%;
     -webkit-animation:;
-    */
+    
 }
-  /*PAREI AQUI
-  @keyframes {
+
+  @keyframes Betrad {
     0% {
       transform: rotate3d(0deg);
       width: 0px;
@@ -1122,7 +1122,7 @@ margin-right: 0%;
       -o-transform: rotate3d(180deg);
 }
   
-    
+ 
     100% {
       width: 260px;
       height: 260px;
@@ -1135,107 +1135,66 @@ margin-right: 0%;
       -ms-transform: rotate3d(360deg);
       -o-transform: rotate3d(360deg);
 }
-  }
+}
 
-  #russell:hover {font-style: verdana ;
+  #russell:hover {
+    font-size: 1em;
+    color: #ebe2e2;
+    font-style: verdana ;
     background-position: center;
     background-image: linear-gradient( #ebe2e2, #e90c0c, #268ceb);
     background-size: cover;
-    display: inline;
-    font-size: 17px;
-    color: #f3eded;
-    margin-top: -40%;
-    margin-bottom: -40%;
-    margin-left: 50%;
-    margin-right: -40%;
-    padding-top: 4%;
-    padding-bottom: 8%;
-    padding-left: 1%;
-    padding-right: 1px;
-
-    opacity: 0.9;
-  display: inline-block;
+    display: block;
+    margin-top: 0%;
+    margin-bottom: -60%;
+    margin-left: -17%;
+    margin-right: -2%;
+    padding-top: 70%;
+    padding-bottom: 35%;
+    padding-left: 7%;
+    padding-right: 4%;
+    border-style: double rgb(68, 63, 63);
+    border-width: 3%;
+    border-color: rgb('39, 41, 44');
+    box-sizing: border-box;
+    box-shadow: 3px 3px 7px 4px rgb(3, 3, 3);
+    border-radius: 100% 100% 100% 100%;
+  opacity: 0.9;
   }
   
-  */
+
 #russell {
-  opacity: 0.9;
+  opacity: 0.0;
 
  text-align: center;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #eef1dc;
-   
-    margin-top: 4%;
-    margin-bottom: -49%;
-    margin-left: 20%;
-    margin-right: 13%;
-    padding-top: 16%;
-    padding-bottom:-49%;
-  
-   
-   
-
-   /*
-    animation: alternate;
-    transform: translateX(0deg);
-    animation: russel 7s ease-in-out;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    -ms-border-radius: 100px;
-    -o-border-radius: 100px;*/
-}
-  /*
-  @keyframes russel {
-    0% {
-      transform: translateX(0deg);
-      font-size: 0px;
-      opacity: 0.0;
-      box-sizing: border-box;
-    
-      margin-top: 0px;
-    }
-  
-    50% {
-      transform: translateX(100deg);
-  
-      font-size: 5px;
-  
-      box-sizing: border-box;
-  
-      opacity: 0.0;
-    }
-  
-    70% {
-      font-size: 10px;
-      opacity: 0.0;
-  
-      margin-top: 1px;
-      transform: translateX(180deg);
-  
-      border-radius: 100px;
-      box-sizing: border-box;
-  
-    }
-  
-  
-  
-  
-  100% {
-    font-size: 17px;
-    opacity: 0.9;
-    transform: translateX(360deg);
-  
+    color: #070707;
+    display: block;
+    margin-top: -6%;
+    margin-bottom: -64%;
+    margin-left: -18%;
+    margin-right: -1%;
+    padding-top: 89%;
+    padding-bottom: 35%;
+    padding-left: 7%;
+    padding-right: 4%;
+    border-style: double rgb(68, 63, 63);
+    border-width: 3%;
+    border-color: rgb('39, 41, 44');
     box-sizing: border-box;
+    box-shadow: 3px 3px 7px 4px rgb(3, 3, 3);
+    border-radius: 100% 100% 100% 100%;
   
-    width: 100px;
-    height: 60px;
-  
-  }
+   
 
-*/
+   
+    
+}
+  
+ 
   .seçao {
-    color: #74fa06;
+   
     margin-top: 180px;
     margin-bottom: -164px;
     margin-left: 20px;
@@ -1335,7 +1294,7 @@ margin-right: 0%;
     animation: paragrafo 14s ease-in-out;
   
   }
-  }
+  
   @keyframes paragrafo {
     0% {
       transform: translateY(0px);
